@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage("Git pull source code "){
             steps{
-                git branch: 'master',url: ''
+                git branch: 'master',url: 'https://github.com/siddhgopal/myJenkins'
             }
         } 
         stage('compile source'){
