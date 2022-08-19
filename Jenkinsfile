@@ -10,8 +10,8 @@ pipeline{
         } 
         stage('compile source'){
             steps {
-                bat ``` cd /D D:\\Learning\\localgitrepo
-                npm install ```
+                bat ''' cd /D D:\\Learning\\localgitrepo
+                npm install '''
             }
         } 
         stage('hello'){
